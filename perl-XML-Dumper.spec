@@ -78,7 +78,7 @@ XML::Dumper - 用于转储到 XML 或从 XML 转储 Perl 对象的 Perl 模块。
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
