@@ -61,7 +61,7 @@ XML ¤È¤Î´Ö¤Ç Perl ¥ª¥Ö¥¸¥§¥¯¥È¤ò¥À¥ó¥×¤¹¤ë¤¿¤á¤Î Perl ¥â¥¸¥å¡¼¥ë¡£
 XML::Dumper - XML ·ÎºÎÅÍ/À¸·Î ÆÞ °´Ã¼µéÀ» ¹ö¸®´Âµ¥ ÇÊ¿äÇÑ ÆÞ ¸ðÁÙ.
 
 %description -l pl
-XML::Dumper - modu³ konwertuj±cy obiekty Perla do XML i odwrotnie.
+XML::Dumper - modu³ konwertuj±cy obiekty Perla do XML-a i odwrotnie.
 
 %description -l pt
 XML::Dumper - Módulo de Perl para traduzir objectos de Perl de e para
