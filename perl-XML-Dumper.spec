@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl XML::Dumper
 Summary(zh_CN):	XML::Dumper Perl дё©И
 Name:		perl-XML-Dumper
 Version:	0.4
-Release:	7
+Release:	8
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
