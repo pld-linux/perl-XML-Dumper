@@ -3,7 +3,7 @@ Summary:	XML-Dumper perl module
 Summary(pl):	Modu³ perla XML-Dumper
 Name:		perl-XML-Dumper
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
