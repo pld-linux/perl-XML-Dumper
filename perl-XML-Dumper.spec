@@ -26,7 +26,7 @@ XML-Dumper - modu³ konwertuj±cy obiekty perla do XML i odwrotnie.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
