@@ -19,12 +19,12 @@ Summary(sv):	XML::Dumper Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::Dumper
 Summary(zh_CN):	XML::Dumper Perl Ä£¿é
 Name:		perl-XML-Dumper
-Version:	0.4
-Release:	9
+Version:	0.67
+Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	923aa94b232bcff813cba8e9e1b7744c
+# Source0-md5:	617849a11885db37107efe2d3605cb2b
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-XML-Parser >= 2.16
@@ -83,11 +83,8 @@ XML::Dumper - ÓÃÓÚ×ª´¢µ½ XML »ò´Ó XML ×ª´¢ Perl ¶ÔÏóµÄ Perl Ä£¿é¡£
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
-
-install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -97,6 +94,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorlib}/XML/Dumper.pm
 %{_mandir}/man3/*
-%dir %{_examplesdir}/%{name}-%{version}
-%attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*.pl
-%{_examplesdir}/%{name}-%{version}/[Rmn]*
