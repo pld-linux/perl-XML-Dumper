@@ -2,9 +2,9 @@
 Summary:	XML-Dumper perl module
 Summary(pl):	Modu³ perla XML-Dumper
 Name:		perl-XML-Dumper
-Version:	0.3
-Release:	3
-Copyright:	GPL
+Version:	0.4
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/XML/XML-Dumper-%{version}.tar.gz
@@ -30,11 +30,11 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
+install -d $RPM_BUILD_ROOT/usr/src/examples/%{name}
 
 make install DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
+install examples/* $RPM_BUILD_ROOT/usr/src/examples/%{name}
 
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/XML/Dumper
@@ -57,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_mandir}/man3/*
 
-/usr/src/examples/%{name}-%{version}
+/usr/src/examples/%{name}
