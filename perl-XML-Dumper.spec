@@ -21,12 +21,12 @@ Summary(zh_CN):	XML::Dumper Perl Ä£¿é
 Name:		perl-XML-Dumper
 Version:	0.4
 Release:	7
-License:	GPL
+License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
-BuildRequires:	perl-XML-Parser
+BuildRequires:	perl-XML-Parser >= 2.16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
