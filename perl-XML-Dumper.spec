@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	XML
-%define		pnam	Dumper
+%define	pdir	XML
+%define	pnam	Dumper
 Summary:	XML::Dumper Perl module
 Summary(cs):	Modul XML::Dumper pro Perl
 Summary(da):	Perlmodul XML::Dumper
