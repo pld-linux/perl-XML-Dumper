@@ -10,7 +10,7 @@ Summary(fr):	Module Perl XML::Dumper
 Summary(it):	Modulo di Perl XML::Dumper
 Summary(ja):	XML::Dumper Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	XML::Dumper ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul XML::Dumper
+Summary(nb):	Perlmodul XML::Dumper
 Summary(pl):	Modu³ Perla XML::Dumper
 Summary(pt):	Módulo de Perl XML::Dumper
 Summary(pt_BR):	Módulo Perl XML::Dumper
