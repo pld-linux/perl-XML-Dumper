@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Dumper
-Summary:	XML-Dumper perl module
-Summary(pl):	Modu³ perla XML-Dumper
+Summary:	XML::Dumper perl module
+Summary(pl):	Modu³ perla XML::Dumper
 Name:		perl-XML-Dumper
 Version:	0.4
 Release:	6
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Dumper - module for dumping Perl objects from/to XML.
+XML::Dumper - module for dumping Perl objects from/to XML.
 
 %description -l pl
-XML-Dumper - modu³ konwertuj±cy obiekty perla do XML i odwrotnie.
+XML::Dumper - modu³ konwertuj±cy obiekty perla do XML i odwrotnie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
