@@ -23,13 +23,13 @@ Summary(sv):	XML::Dumper Perlmodul
 Summary(uk):	Модуль для Perl XML::Dumper
 Summary(zh_CN):	XML::Dumper Perl дё©И
 Name:		perl-XML-Dumper
-Version:	0.79
-Release:	1
+Version:	0.81
+Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d399034ff3cc94e03409d7602a657391
+# Source0-md5:	10726bbe78bef5e4264d5f57533da7c1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-XML-Parser >= 2.16
