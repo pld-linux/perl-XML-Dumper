@@ -5,26 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	Dumper
-Summary:	XML::Dumper Perl module
-Summary(cs):	Modul XML::Dumper pro Perl
-Summary(da):	Perlmodul XML::Dumper
-Summary(de):	XML::Dumper Perl Modul
-Summary(es):	Módulo de Perl XML::Dumper
-Summary(fr):	Module Perl XML::Dumper
-Summary(it):	Modulo di Perl XML::Dumper
-Summary(ja):	XML::Dumper Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	XML::Dumper ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul XML::Dumper
-Summary(pl):	Modu³ Perla XML::Dumper
-Summary(pt):	Módulo de Perl XML::Dumper
-Summary(pt_BR):	Módulo Perl XML::Dumper
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl XML::Dumper
-Summary(sv):	XML::Dumper Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::Dumper
-Summary(zh_CN):	XML::Dumper Perl Ä£¿é
+Summary:	XML::Dumper - Perl module for dumping Perl objects from/to XML
+Summary(pl):	XML::Dumper - Perlový modul umo¾òující dump objektù Perlu z/do XML
 Name:		perl-XML-Dumper
 Version:	0.81
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -32,7 +17,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	10726bbe78bef5e4264d5f57533da7c1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
+%if %{with autodeps} || %{with tests}
+BuildRequires:	perl-Compress-Zlib
 BuildRequires:	perl-XML-Parser >= 2.16
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
