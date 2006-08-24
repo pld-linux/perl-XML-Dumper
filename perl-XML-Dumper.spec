@@ -6,7 +6,8 @@
 %define		pdir	XML
 %define		pnam	Dumper
 Summary:	XML::Dumper - Perl module for dumping Perl objects from/to XML
-Summary(pl):	XML::Dumper - Perlový modul umo¾òující dump objektù Perlu z/do XML
+Summary(cs):	XML::Dumper - Perlový modul umo¾òující dump objektù Perlu z/do XML
+Summary(pl):	XML::Dumper - modu³ Perla konwertuj±cy obiekty Perla do XML-a i odwrotnie
 Name:		perl-XML-Dumper
 Version:	0.81
 Release:	1
