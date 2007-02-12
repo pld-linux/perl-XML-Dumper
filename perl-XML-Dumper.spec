@@ -6,8 +6,8 @@
 %define		pdir	XML
 %define		pnam	Dumper
 Summary:	XML::Dumper - Perl module for dumping Perl objects from/to XML
-Summary(cs):	XML::Dumper - Perlovı modul umo¾òující dump objektù Perlu z/do XML
-Summary(pl):	XML::Dumper - modu³ Perla konwertuj±cy obiekty Perla do XML-a i odwrotnie
+Summary(cs.UTF-8):   XML::Dumper - PerlovÃ½ modul umoÅ¾ÅˆujÃ­cÃ­ dump objektÅ¯ Perlu z/do XML
+Summary(pl.UTF-8):   XML::Dumper - moduÅ‚ Perla konwertujÄ…cy obiekty Perla do XML-a i odwrotnie
 Name:		perl-XML-Dumper
 Version:	0.81
 Release:	1
@@ -28,44 +28,44 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::Dumper - Perl module for dumping Perl objects from/to XML.
 
-%description -l cs
-XML::Dumper - Perlovı modul umo¾òující dump objektù Perlu z/do XML.
+%description -l cs.UTF-8
+XML::Dumper - PerlovÃ½ modul umoÅ¾ÅˆujÃ­cÃ­ dump objektÅ¯ Perlu z/do XML.
 
-%description -l da
+%description -l da.UTF-8
 XML::Dumper - Perlmodul for at sende Perlobjekt fra/till XML.
 
-%description -l de
-XML::Dumper - Perl-Modul für das Dumping von Perl-Objekten von/zu
+%description -l de.UTF-8
+XML::Dumper - Perl-Modul fÃ¼r das Dumping von Perl-Objekten von/zu
 XML.
 
-%description -l es
-XML::Dumper - Módulo Perl para volcar objetos perl a/desde XML.
+%description -l es.UTF-8
+XML::Dumper - MÃ³dulo Perl para volcar objetos perl a/desde XML.
 
-%description -l fr
-XML::Dumper - Module Perl pour décharger des objets depuis/vers XML.
+%description -l fr.UTF-8
+XML::Dumper - Module Perl pour dÃ©charger des objets depuis/vers XML.
 
-%description -l it
+%description -l it.UTF-8
 XML::Dumper - Modulo Perl per eseguire il dumping degli oggetti di
 Perl da/a XML.
 
-%description -l ja
-XML ¤È¤Î´Ö¤Ç Perl ¥ª¥Ö¥¸¥§¥¯¥È¤ò¥À¥ó¥×¤¹¤ë¤¿¤á¤Î Perl ¥â¥¸¥å¡¼¥ë¡£
+%description -l ja.UTF-8
+XML ã¨ã®é–“ã§ Perl ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ãƒ€ãƒ³ãƒ—ã™ã‚‹ãŸã‚ã® Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«ã€‚
 
-%description -l ko
-XML::Dumper - XML ·ÎºÎÅÍ/À¸·Î ÆŞ °´Ã¼µéÀ» ¹ö¸®´Âµ¥ ÇÊ¿äÇÑ ÆŞ ¸ğÁÙ.
+%description -l ko.UTF-8
+XML::Dumper - XML ë¡œë¶€í„°/ìœ¼ë¡œ í„ ê°ì²´ë“¤ì„ ë²„ë¦¬ëŠ”ë° í•„ìš”í•œ í„ ëª¨ì¤„.
 
-%description -l pl
-XML::Dumper - modu³ konwertuj±cy obiekty Perla do XML-a i odwrotnie.
+%description -l pl.UTF-8
+XML::Dumper - moduÅ‚ konwertujÄ…cy obiekty Perla do XML-a i odwrotnie.
 
-%description -l pt
-XML::Dumper - Módulo de Perl para traduzir objectos de Perl de e para
+%description -l pt.UTF-8
+XML::Dumper - MÃ³dulo de Perl para traduzir objectos de Perl de e para
 XML.
 
-%description -l sv
-XML::Dumper - Perlmodul för att skicka Perlobjekt från/till XML.
+%description -l sv.UTF-8
+XML::Dumper - Perlmodul fÃ¶r att skicka Perlobjekt frÃ¥n/till XML.
 
-%description -l zh_CN
-XML::Dumper - ÓÃÓÚ×ª´¢µ½ XML »ò´Ó XML ×ª´¢ Perl ¶ÔÏóµÄ Perl Ä£¿é¡£
+%description -l zh_CN.UTF-8
+XML::Dumper - ç”¨äºè½¬å‚¨åˆ° XML æˆ–ä» XML è½¬å‚¨ Perl å¯¹è±¡çš„ Perl æ¨¡å—ã€‚
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
