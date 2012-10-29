@@ -1,6 +1,5 @@
 #
 # Conditional build:
-%bcond_without	autodeps	# don't BR packages needed only for resolving deps
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
@@ -15,11 +14,12 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	10726bbe78bef5e4264d5f57533da7c1
+URL:		http://search.cpan.org/dist/XML-Dumper/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
-%if %{with autodeps} || %{with tests}
+%if %{with tests}
 BuildRequires:	perl-Compress-Zlib
 BuildRequires:	perl-XML-Parser >= 2.16
 %endif
@@ -91,4 +91,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/XML/Dumper.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/XML::Dumper.3pm*
